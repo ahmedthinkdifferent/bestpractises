@@ -1,0 +1,11 @@
+describe('[unit of work]', () => {
+  it('should [expected behaviour] when [scenario/context]', () => {
+  });
+});
+=============
+describe('[unit of work]', () => {
+  describe('when [scenario/context]', () => {
+    it('should [expected behaviour]', () => {
+    });
+  });
+});
